@@ -2,7 +2,7 @@ import re
 
 # find the word pretty
 def hasPretty(inp):
-    return re.search(r'pretty', inp) != None
+    return re.search(r'pretty', inp)!=None 
 print hasPretty('i am pretty so yeah')
 print hasPretty('i am not that ahhh')
     
